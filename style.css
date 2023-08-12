@@ -9,9 +9,11 @@
   width: 50vh;
   height: 100vh;
   background-image: linear-gradient(
-    180deg,
-    rgba(250, 250, 250, 0.686),
-    rgba(228, 192, 255, 0)
+    160deg,
+    rgba(210, 87, 255, 0.867),
+    rgba(0, 0, 0, 0.475),
+    rgba(228, 192, 255, 0),
+    rgba(0, 0, 0, 0)
   );
   padding: 12px;
   text-align: center;
@@ -38,7 +40,7 @@
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   color: rgb(248, 248, 248);
   text-align: center;
-  font-size: 20px;
+  font-size: 100%;
   border-radius: 15px;
 
   &:hover{
@@ -49,6 +51,7 @@
 a {
   text-decoration: none;
   font-family: sans-serif;
+  color: rgb(0, 0, 0);
 }
 
 body {
@@ -58,11 +61,12 @@ body {
     rgb(123, 49, 233),
     rgb(228, 192, 255)
   );
-  margin:0px;
+  margin:0%;
 }
 
 .leftboxtext {
-  font-size: 29px;
+  /* font-size: 29px; */
+  font-size:160%;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
@@ -74,25 +78,24 @@ body {
   font-weight: bolder;
 }
 body nav ul {
-  font-size: medium;
-  font-weight: bolder;
-  width: 120vh;
-  height: 6vh;
-  background-color: rgb(237, 239, 241);
-  text-align: center;
+  font-size:90%;
+  font-weight:bold;
+  width: auto;
+  height: auto;
+  text-align: right;
   font-family: sans-serif;
-  border-radius: 4px;
 }
 li {
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   text-align: center;
-  padding: 10px;
+  padding-right: 6%;
   text-decoration: none;
   font-size: large;
   display: inline-block;
 }
 nav {
-  margin-left: 42vh;
+  /* margin-left: 42vh; */
+  
 }
 
 .aboutbox {
@@ -122,8 +125,11 @@ nav {
   font-weight: 500;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-
 .card img{
-  opacity:85%;
+  opacity: 70%;
+
+  &:hover{
+    opacity: 100%;
+  }
 }
 
